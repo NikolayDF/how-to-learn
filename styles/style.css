@@ -1,3 +1,7 @@
+/*div,  img{
+  border: 1px solid red;
+}*/
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -7,9 +11,12 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000;
 }
 
 .header {
+  display: flex;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -20,6 +27,74 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+  display: inline-block;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  left: 64px;
+  align-self: center;
+  margin-left: 64px;
+  width: 730px;
+  z-index: 1;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 500;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 388px;
+  z-index: 1;
+  left: 64px;
+  bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.header__subtitle {
+  margin-bottom: 10;
+  display: inline-block;
+}
+
+.header__link {
+  margin-bottom: 10;
+  text-decoration: unset;
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+}
+
+.header__square-pic {
+  position: absolute;
+  height: 568px;
+  width: 568px;
+  z-index: -2;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
