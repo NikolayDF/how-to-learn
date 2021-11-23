@@ -259,12 +259,10 @@
 .section-title_theme_dark, .section-subtitle_theme_dark, .table__text__theme_dark {
   color: white;
   position: relative;
-  z-index: 2;
 }
 
 .table_theme_dark {
   position: relative;
-  z-index: 2;
   margin: 0 auto;
 }
 
@@ -284,7 +282,6 @@
   background: url(../images/kaufman-triangle.svg) center/cover no-repeat;
   width: 877px;
   height: 877px;
-  /*z-index: 1; /* Найти решение */
   position: absolute;
   right: -210px;
   top: 0;
