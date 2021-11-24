@@ -225,6 +225,7 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
   position: relative;
   line-height: 51px;
   font-size: 36px;
@@ -290,29 +291,28 @@
 
 .footer {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: stretch;
   box-sizing: border-box;
   min-height: 350px;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding: 60px 5% 40px;
   background-color: #1f1f1f;
+  font-size: 18px;
+  font-weight: normal;
   color: white;
 }
 
 .footer__columns {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
-  width: 90%;
-  margin: 0 auto;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
+  line-height: 25px;
 }
 
 .logo_place_footer {
@@ -322,20 +322,14 @@
 
 .footer__autor {
   margin: 18px 0;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: normal;
 }
 
-.footer__column_content_info, .footer__column_content_social {
-  font-size: 18px;
+.footer__column_content_info, .footer__column_content_social { /* мод */
   line-height: 30px;
-  font-weight: normal;
 }
 
 .footer__column-heading {
   font-size: 18px;
-  line-height: 30px;
   font-weight: bold;
   margin: 0 0 20px;
 }
