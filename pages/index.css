@@ -1,2 +1,3 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/style.css); /*разделить*/
+@import url(../blocks/rotation/rotation.css); /* анимация */
