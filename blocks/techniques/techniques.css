@@ -1,0 +1,18 @@
+.techniques {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 100px;
+  border: 1px solid rgb(155, 50, 50);
+  width: 80%;
+}
+
+/* так можно? */ /* ширина 920 куда?*/
+.techniques .section-title { 
+  width: 80%;
+}
+
+.techniques .section-subtitle { 
+    width: 80%;
+  }
+
+  /**xt yflj*/

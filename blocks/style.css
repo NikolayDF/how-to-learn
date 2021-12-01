@@ -203,59 +203,6 @@
   margin-bottom: 0;
 }
 
-/* feynman */
-
-.feynman {
-  position: relative;
-  box-sizing: border-box;
-  padding-top: 100px;
-  min-height: 890px;
-  width: 100%;
-  background-color: #f2f2f2;
-}
-
-/* ниже класс, который используется для img как альтернатива (с абсолютным позиционированием) */
-.feynman__illustration {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 867px;
-  height: 637px;
-}
-
-.feynman__title {
-  position: relative;
-  width: 648px;
-  margin: 0 auto 70px;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-  text-align: center;
-  z-index: 1;
-}
-
-.feynman__subtitle {
-  margin: 0;
-  position: relative;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  text-align: center;
-  z-index: 1;
-}
-
-.feynman__link {
-  text-decoration: none;
-  color: #2f80ed;
-  line-height: 51px;
-  font-size: 36px;
-  position: absolute;
-  right: 48px;
-  top: 50%;
-  z-index: 2;
-  margin-bottom: 0;
-}
-
 /* kaufman */
 
 .kaufman {
