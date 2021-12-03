@@ -1,13 +1,10 @@
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    list-style: none;
-    padding: 0;
-    margin: 0 ;
-    text-align: center;
-    justify-content: center;
-    /*align-content: flex-start;*/
-    /* нацти решение */
-    /*align-items: center;*/
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 920px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 0;
+  text-align: center;
 }

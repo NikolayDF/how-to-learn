@@ -1,5 +1,4 @@
 .video {
   margin-top: 100px;
-  overflow: visible;
-  max-height: 437px;
+  margin-bottom: -49px; /* расчитано */
 }

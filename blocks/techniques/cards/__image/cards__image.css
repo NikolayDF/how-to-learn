@@ -1,16 +1,12 @@
 .cards__image {
-    overflow: hidden;
-    width: 160px;
-    height: 160px;
-    margin: 60px auto 43px;
-    border-radius: 50%;
-   /* align-items: center;*/
-   /* border: 1px solid green;*/
-    background-size: cover;
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  margin: 60px auto 43px;
+  border-radius: 50%;
+  background-size: cover;
 }
 
-
-/* можно ли так? */
 .cards__image img {
     width: 160px;
     height: 160px;

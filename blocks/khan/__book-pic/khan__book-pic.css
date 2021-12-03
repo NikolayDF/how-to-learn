@@ -2,5 +2,6 @@
   width: 620px;
   height: 608px;
   margin-right: 48px;
-  /* object-fit и object-position */
+  object-fit: none;
+  object-position: 0% 0%;
 }

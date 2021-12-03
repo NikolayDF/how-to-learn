@@ -7,7 +7,6 @@
   }
 }
 
-/* убрать? */
 .rotation__around {
   animation: rotation 20s linear infinite;
 }
